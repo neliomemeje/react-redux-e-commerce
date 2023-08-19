@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import EmptyCart from "./EmptyCart";
 import CartList from "./CartList";
 import Total from "./Total";
-import { getCount, clearChecked } from "../redux/actions/ProductActions";
+import { getCount, clearChecked } from "../../redux/actions/ProductActions";
 
 const Cart = () => {
   const dispatch = useDispatch();

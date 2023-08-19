@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { clearCart } from "../redux/actions/ProductActions";
+import { clearCart } from "../../redux/actions/ProductActions";
 import { useDispatch } from "react-redux";
 
 const Total = ({ checkItems }) => {

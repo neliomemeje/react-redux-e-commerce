@@ -5,7 +5,7 @@ import {
   removeItem,
   toggle,
   getChecked,
-} from "../redux/actions/ProductActions";
+} from "../../redux/actions/ProductActions";
 
 const CartList = ({ id, image, title, count, price, subTotal }) => {
   const dispatch = useDispatch();
